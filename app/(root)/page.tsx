@@ -11,7 +11,7 @@ export default async function Home({ searchParams }: searchParams = Promise<{ qu
                   Submit Ideas, Vote on Pitches, and Get Noticed on Virtual Competitions.
               </p>
 
-              <SearchForm />
+              <SearchForm query={query} />
 
           </section>
       </>
